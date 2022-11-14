@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container2{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+    border: 5px solid rgb(164, 164, 164);
+    border-radius: 10px;
+    
+}
+.request{
+    font-size: 22px;
+    color:black;
+    font-weight: 600;
+    margin-bottom: 30px ;
+
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: rgb(0, 0, 0);
+    color: #fff
+}
+.reach{
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 30px ;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: 2px solid rgb(165, 165, 165);
+    border-radius: 5px;
+    outline: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 2px solid rgb(165, 165, 165);
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: black;
+    font-size: 17px;
+}
+tr th:first-child{
+    padding-right: 15px;
+}
+tr th{
+    padding-top: 25px ;
+    font-size: 18px;
+}
+.submit2{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 60px;
+    background: linear-gradient(to right, #1a191a, #707070);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-top: 30px;
+    margin-left: 12vh;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s;
+}

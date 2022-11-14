@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    background-image: url('../assets/success.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.app-wrapper1{
+    background-color: #ffff;
+    min-width: 350px;
+    min-height: 650px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.title1{
+    color: #000000;
+    text-align: center;
+    margin: 80px 0px 40px 0px;
+
+}
+.name1,
+.password1{
+    margin: 20px;
+    color: #969292;
+    font-size: 16px;
+}
+.password1{
+    margin-bottom: 40px;
+}
+
+
+
+.input1{
+    height: 32px;
+    font-size: 20px;
+    outline: none;
+    width: 100%;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: 2px solid black;
+    margin-bottom: 10px;
+
+}
+.error{
+    color: red;
+}
+.submit1{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 60px;
+    background: linear-gradient(to right, #1a191a, #4e4b4c);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin: auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+button:active{
+    transform: translateY(2px);
+}
+.text{
+    margin: 30px;
+    font-size: 16px;
+    padding: 30px 80px;
+}
+.alt-login{
+    width: 80%;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px;
+
+}
+.alt-login div {
+    width: 47.5%;
+    height: 90%;
+    border-radius: 2em;
+    background-color: black;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.google{
+    background-image: url("../assets/google.png");
+    
+}
+.facebook{
+    background-image: url("../assets/facebook.png");
+}
