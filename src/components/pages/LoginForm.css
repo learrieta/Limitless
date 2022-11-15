@@ -103,3 +103,21 @@ button:active{
 .facebook{
     background-image: url("../assets/facebook.png");
 }
+
+@media only screen and (max-device-width: 480px){
+    .app-wrapper1{
+        width: 300px;
+    }
+    .input1{
+        height: 32px;
+        font-size: 15px;
+        outline: none;
+        width: 100%;
+        border-top-style: none;
+        border-left-style: none;
+        border-right-style: none;
+        border-bottom-style: 2px solid black;
+        margin-bottom: 10px;
+    
+    }
+}
