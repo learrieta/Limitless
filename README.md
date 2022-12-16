@@ -4,7 +4,7 @@ For this project, I used react.js framework. React is an open-source framework a
 
 I am very dedicated to fitness, I like to work out every morning for at least two hours, and I do live a healthy lifestyle. In the past, I struggle with my weight and my diet and it was hard for me to get started. So we this website I am hoping to provide a basic guide on how to get started in the gym, or how to work out at home. 
 
-[Software Demo Video](https://youtu.be/KJmF3bufJ1s)
+[Software Demo Video](https://youtu.be/KJmF3bufJ1s)<br>
 [Website Limitless](https://limitless-adc29.firebaseapp.com/)
 
 # Web Pages
